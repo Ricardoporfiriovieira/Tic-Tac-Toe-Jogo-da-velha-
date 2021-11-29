@@ -136,10 +136,10 @@ if hype == 1:
 elif hype == 2:
     escolha = 'cls'
 print('''
-==========================================================================
-| Você está rodando este código no "Visual Studio Code"? [Sim / Não]:    |
-==========================================================================''')
-cor = input('Digite [Sim / Não]: ').lower().strip()
+==========================================================
+| Você está rodando este código no "Visual Studio Code"? |
+==========================================================''')
+cor = input('Digite a opção desejada [Sim / Não]: ').lower().strip()
 if cor == 'sim':
     simbolo = '\033[1;31mX\033[m'
 
@@ -180,4 +180,3 @@ while True:
         if fim_do_jogo == True:
             print('Saindo...')
             exit()
-        
